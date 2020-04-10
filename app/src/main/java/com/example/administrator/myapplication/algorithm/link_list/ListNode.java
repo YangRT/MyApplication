@@ -3,6 +3,7 @@ package com.example.administrator.myapplication.algorithm.link_list;
 public class ListNode {
 
     public int val;
+    public ListNode prev;
     public ListNode next;
     public ListNode random;
 
@@ -19,5 +20,12 @@ public class ListNode {
         this.next = next;
         this.random = random;
         this.val = val;
+    }
+
+    public ListNode(int val,ListNode prev,ListNode next,ListNode random){
+        this.next = next;
+        this.random = random;
+        this.val = val;
+        this.prev = prev;
     }
 }
