@@ -1,0 +1,29 @@
+package com.example.administrator.myapplication.classDemo.customview;
+
+import android.graphics.Canvas;
+import android.graphics.Paint;
+
+//粒子
+public abstract class Particle {
+    float cx;
+    float cy;
+    int color;
+
+    public Particle(float cx, float cy, int color) {
+        this.cx = cx;
+        this.cy = cy;
+        this.color = color;
+    }
+
+    //计算  运动规则
+    protected abstract void calculate(float factor);
+
+    //绘制  粒子样式
+    protected abstract void draw(Canvas canvas, Paint paint);
+
+    //逐步绘制
+    public void advance(Canvas canvas,Paint paint,float factor){
+        calculate(factor);
+        draw(canvas,paint);
+    }
+}
