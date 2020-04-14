@@ -17,6 +17,7 @@ public class AddTwoNum {
             num = (fVal+eVal+carryBit)%10;
             carryBit = (fVal+eVal+carryBit)/10;
             temp.next = new ListNode(num);
+            temp = temp.next;
             if (f!=null) f = f.next;
             if (e!=null) e = e.next;
         }
