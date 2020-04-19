@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".demo.RotateActivity">
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/rotate_backgroud" >
+
+    <ImageView
+        android:src="@drawable/cd"
+        android:id="@android:id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rotate_backgroud" />
+
+    <ImageView
+        android:id="@android:id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/handler" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="12dp" >
+
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:id="@android:id/button1"
+            android:src="@drawable/skip_previous" />
+
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:id="@android:id/button2"
+            android:src="@drawable/play" />
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:id="@android:id/button3"
+            android:src="@drawable/skip_next" />
+    </LinearLayout>
+
+</LinearLayout>

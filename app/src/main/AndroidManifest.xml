@@ -18,20 +18,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".aidl.AidlActivity"></activity>
-        <activity android:name=".view.layout_manager.LayoutMangerActivity">
+        <activity android:name=".demo.RotateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".aidl.AidlActivity" />
+        <activity android:name=".view.layout_manager.LayoutMangerActivity">
+        </activity>
         <activity android:name=".album.SelectPictureActivity" />
         <activity android:name=".album.Main6Activity" />
         <activity android:name=".demo.Main5Activity" />
         <activity android:name=".classDemo.bitmaploader.BitmapLoaderActivity" />
         <activity android:name=".classDemo.Main4Activity" />
-        <activity android:name=".view.AnimatorActivity"></activity>
+        <activity android:name=".view.AnimatorActivity" />
 
         <service
             android:name=".download.DownloadService"
