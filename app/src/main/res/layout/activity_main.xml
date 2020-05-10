@@ -4,15 +4,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#000000"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
-    <com.example.administrator.myapplication.view.linear_gradient.LinearGradientTextView
-        android:layout_gravity="center_vertical"
-        android:textSize="26sp"
-        android:textColor="#666666"
-        android:text="欢迎来到文字渐变的世界"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <com.example.administrator.myapplication.view.filter_view.FilterView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </LinearLayout>
