@@ -19,11 +19,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".demo.RotateActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".aidl.AidlActivity" />
         <activity android:name=".view.layout_manager.LayoutMangerActivity">
@@ -41,7 +36,13 @@
             android:exported="true" />
 
         <activity android:name=".download.DownloadActivity" />
-        <activity android:name=".view.MainActivity" />
+        <activity android:name=".view.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".classDemo.Main2Activity" />
         <activity
             android:name=".classDemo.Main3Activity"
