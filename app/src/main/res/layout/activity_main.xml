@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
-    <com.example.administrator.myapplication.view.filter_view.FilterView
+    <com.example.administrator.myapplication.view.heartview.HeartView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </LinearLayout>
