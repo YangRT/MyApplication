@@ -4,10 +4,58 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp"
     tools:context=".view.MainActivity">
-    <com.example.administrator.myapplication.view.heartview.HeartView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+   <com.example.administrator.myapplication.view.CouponDisplayView.CouponDisplayView
+       android:orientation="horizontal"
+       android:layout_marginTop="100dp"
+       android:background="#f7b659"
+       android:padding="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:layout_width="120dp"
+           android:layout_height="match_parent"
+           android:src="@drawable/food"
+           android:scaleType="centerCrop"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:paddingLeft="16dp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="18dp"
+               android:text="美食劵"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="12dp"
+               android:padding="5dp"
+               android:text="编号:11223124123213131"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="12dp"
+               android:padding="5dp"
+               android:text="编号:11223124123213131"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="12dp"
+               android:paddingLeft="5dp"
+               android:paddingTop="5dp"
+               android:text="截止日期:2001-09-07"
+               />
+       </LinearLayout>
+   </com.example.administrator.myapplication.view.CouponDisplayView.CouponDisplayView>
 </LinearLayout>
