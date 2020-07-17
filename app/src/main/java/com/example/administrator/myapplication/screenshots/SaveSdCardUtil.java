@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * Created by wjj on 2017/9/28.
+ * Created on 2017/9/28.
  * @Description  图片存储工具类
  */
 

@@ -18,8 +18,6 @@ import android.view.View;
 
 /**
  * @Description: 进行截屏工具类
- * @author wjj
- * @time 2013/09/29
  */
 public class ScreenShotUtils {
 
